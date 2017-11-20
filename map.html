@@ -11,8 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <title>Vvitali's map</title>
-
+    <title>Bootstrap Portfolio</title>
 </head>
 
 <body>
@@ -60,53 +59,10 @@
         <div class="row">
             <!-- main -->
             <div class="col-md-8 col-xs-12">
+                <!-- main -->
+                <a href="#" class="thumbnail pull-left myImageStyle"><img class="img-responsive" src="https://raw.githubusercontent.com/Vvitali/Responsive-Portfolio/master/images/Vitaliys-photo.jpg" alt="Vitaliy's photo"></a>
                 <p>My name is Vitaliy Vorobyev, and I'm a Full-stack web-developer. Now, you can see my home-page where you can find my contacts, some of my projects, and just some interesting things</p>
-
-                <h3>My journey!
-                    <span style="font-size: 14px;">(hint: hover the cursor over any pointer)</span>
-                </h3>
-                <div id="map"></div>
-                <script>
-                    function initMap() {
-                        var uluru = { lat: -25.363, lng: 131.044 };
-
-                        var uka = { lat: 50.089390, lng: 82.768088 };
-                        var map = new google.maps.Map(document.getElementById('map'), {
-                            zoom: 2,
-                            center: { lat: 62.055155, lng: 1.474776 }
-                        });
-                        var marker1 = new google.maps.Marker({
-                            position: uka,
-                            map: map,
-                            title: "I was born here!"
-                        });
-
-                        var bryansk = new google.maps.Marker({
-                            position: { lat: 53.286774, lng: 34.488616 },
-                            map: map,
-                            title: "I lived here for 5 years, and studied computer science"
-                        });
-
-                        // var zernovo = new google.maps.Marker({
-                        //     position: { lat: 52.183559, lng: 34.042638 },
-                        //     map: map,
-                        // });
-
-                        var portland = new google.maps.Marker({
-                            position: { lat: 45.570655, lng: -122.799300 },
-                            map: map,
-                            title: "I lived here for 2 years"
-                        });
-
-                        var charlotte = new google.maps.Marker({
-                            position: { lat: 35.308163, lng: -81.062588 },
-                            map: map,
-                            title: "Now, I live here, and I'm studying computer science again (Web-development)"
-                        });
-                    }
-                </script>
-                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7YC-NrB9bWLFZqY_faPH_MTATuEzy0oo&callback=initMap">
-                </script>
+                <p>I'm really interested in computer science, and power of software development. I've studied computer science at Russian Federation, won green card in 2015, and now I'm studying web development at UNC of Charlotte (NC)</p>
             </div>
 
             <!-- side-bar  -->
@@ -143,7 +99,6 @@
             </div>
         </div>
     </nav>
-
 </body>
 
 </html>
