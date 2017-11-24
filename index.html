@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="instafeed.min.js"></script>
     <title>Vvitali's map</title>
 
 </head>
@@ -124,9 +125,16 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
+        <div class="row" id="instafeed"></div>
+        <script type="text/javascript">
+            var feed = new Instafeed({
+                get: 'tagged',
+                tagName: 'awesome',
+                clientId: 'a565abe7ec774e66b491222f43dbda72'
+            });
+            feed.run();
+        </script>
 
         <!-- container's end -->
     </div>
