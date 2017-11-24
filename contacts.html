@@ -135,6 +135,10 @@
             time: moment().format('LLL')
         };
         firebase.database().ref("Messages").push(newMessage);
+
+        document.getElementById("nameForm").value= "";
+        document.getElementById("emailForm").value= "";
+        document.getElementById("messageInput").value= "Thank you! Your message has been sent successfully!";
     };
 </script>
 </body>
