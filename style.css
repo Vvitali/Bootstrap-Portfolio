@@ -1,27 +1,30 @@
 .myImageStyle {
-    max-width: 150px;
-    margin-right: 20px;
-
+	max-width: 150px;
+	margin-right: 20px;
 }
 
 .portfolioImages {
-    width: 100%;
+	width: 100%;
 }
 
 .footer {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 .panel {
-    margin-bottom: 80px;
+	margin-bottom: 80px;
 }
 
 .btn-default {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 #map {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 20px;
+	height: 400px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#map{
+	margin-bottom: 60px;
 }
